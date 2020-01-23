@@ -1,0 +1,6 @@
+[submodule "CharacterProject/Assets/MyTools"]
+	path = CharacterProject/Assets/MyTools
+	url = https://github.com/anthonyromrell/ArtisanDream.Tools
+[submodule "CharacterProject/Assets/Experimental"]
+	path = CharacterProject/Assets/Experimental
+	url = https://github.com/anthonyromrell/ArtisanDream.Experimental
