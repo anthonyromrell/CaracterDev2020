@@ -7,7 +7,136 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="AnimBehaviour.cs" t="Include" />
-        <e p="SOs.cs" t="Include" />
+        <e p="DebugObject.cs" t="Include" />
+        <e p="MyTools" t="Include">
+          <e p="Actions" t="Include">
+            <e p="ActionHandlers" t="Include">
+              <e p="GameActionHandler.cs" t="Include" />
+              <e p="TextActionHandler.cs" t="Include" />
+            </e>
+            <e p="GameAction.cs" t="Include" />
+            <e p="IAction.cs" t="Include" />
+          </e>
+          <e p="AI" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="AddPointsList.cs" t="Include" />
+              <e p="AiBase.cs" t="Include" />
+              <e p="AiBehaviour.cs" t="Include" />
+              <e p="AiBrain.cs" t="Include" />
+              <e p="AiHunt.cs" t="Include" />
+              <e p="AiIdle.cs" t="Include" />
+              <e p="AiPatrol.cs" t="Include" />
+              <e p="AITriggerChase.cs" t="Include" />
+              <e p="PatrolPointControl.cs" t="Include" />
+              <e p="Point.cs" t="Include" />
+              <e p="SimpleAI.cs" t="Include" />
+              <e p="StopAgentHandler.cs" t="Include" />
+              <e p="SwapAgentValueHandler.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Behaviours" t="Include">
+            <e p="ColliderEvents.cs" t="Include" />
+            <e p="DisableBehaviour.cs" t="Include" />
+            <e p="IEventBehaviour.cs" t="Include" />
+            <e p="MonoBehaviours.cs" t="Include" />
+            <e p="MouseDownBehaviour.cs" t="Include" />
+            <e p="MouseDragBehaviour.cs" t="Include" />
+            <e p="OnKeyBehaviour.cs" t="Include" />
+            <e p="OnTriggerBehaviour.cs" t="Include" />
+            <e p="SendTransformTrigger.cs" t="Include" />
+            <e p="StartBehaviour.cs" t="Include" />
+          </e>
+          <e p="Character" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="CharacterMover.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+              <e p="MovePatternDual.cs" t="Include" />
+              <e p="MovePatternNotGrounded.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Collections" t="Include">
+            <e p="Coin.cs" t="Include" />
+            <e p="CoinCollection.cs" t="Include" />
+          </e>
+          <e p="Counter" t="Include">
+            <e p="PerpetualCounter.cs" t="Include" />
+          </e>
+          <e p="DataStorage" t="Include">
+            <e p="DataStorage.cs" t="Include" />
+            <e p="Examples" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="StringList.cs" t="Include" />
+                <e p="TextUI.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="DestroyDisable" t="Include">
+            <e p="DestoryOnTrigger.cs" t="Include" />
+            <e p="DestroyBehaviour.cs" t="Include" />
+            <e p="DestroyObj.cs" t="Include" />
+            <e p="DestroyOtherObject.cs" t="Include" />
+            <e p="DisableOrDestroy.cs" t="Include" />
+          </e>
+          <e p="Draggable" t="Include">
+            <e p="Behaviours" t="Include">
+              <e p="DraggableObject.cs" t="Include" />
+              <e p="DragMove.cs" t="Include" />
+            </e>
+            <e p="DragFreeRotation.cs" t="Include" />
+            <e p="DragLimitedRotation.cs" t="Include" />
+            <e p="DragRotationBase.cs" t="Include" />
+            <e p="DragRotClick.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IDrag.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Events" t="Include">
+            <e p="ToggleEvent.cs" t="Include" />
+          </e>
+          <e p="Instancing" t="Include">
+            <e p="InstanceObject.cs" t="Include" />
+          </e>
+          <e p="Matching" t="Include">
+            <e p="MatchID.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="ObjectID.cs" t="Include" />
+          </e>
+          <e p="SingleVariables" t="Include">
+            <e p="ColorData.cs" t="Include" />
+            <e p="DataVariableBase.cs" t="Include" />
+            <e p="FloatBase.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatTypes" t="Include">
+              <e p="BoolData.cs" t="Include" />
+              <e p="float3.cs" t="Include" />
+              <e p="FloatAxis.cs" t="Include" />
+              <e p="FloatBool.cs" t="Include" />
+              <e p="FloatBoolAndCount.cs" t="Include" />
+              <e p="StringData.cs" t="Include" />
+            </e>
+            <e p="GenericObjects.cs" t="Include" />
+            <e p="GenericObjectsBase.cs" t="Include" />
+            <e p="IntData.cs" t="Include" />
+            <e p="Vector3Data.cs" t="Include" />
+          </e>
+          <e p="Snapping" t="Include">
+            <e p="SnapOn.cs" t="Include" />
+          </e>
+          <e p="Store" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="IAPCoins.cs" t="Include" />
+              <e p="InAppPurchaseBase.cs" t="Include" />
+              <e p="InGamePurchase.cs" t="Include" />
+              <e p="PurchaseableObjectGenerator.cs" t="Include" />
+              <e p="PurchaseableObjects.cs" t="Include" />
+              <e p="Store.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="DebugObject.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="CharacterProject.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
