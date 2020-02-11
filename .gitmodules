@@ -4,3 +4,6 @@
 [submodule "CharacterProject/Assets/Experimental"]
 	path = CharacterProject/Assets/Experimental
 	url = https://github.com/anthonyromrell/ArtisanDream.Experimental
+[submodule "3DEssentianlsResources"]
+	path = 3DEssentianlsResources
+	url = https://github.com/anthonyromrell/3DEssentianlsResources

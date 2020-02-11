@@ -282,7 +282,9 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BehaviourID.cs" t="Include" />
           <e p="CheckBoolData.cs" t="Include" />
+          <e p="MathBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="CharacterProject.sln" t="IncludeFlat" />
