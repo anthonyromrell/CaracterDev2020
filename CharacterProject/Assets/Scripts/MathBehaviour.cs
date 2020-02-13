@@ -9,7 +9,7 @@ public class MathBehaviour : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        otherNameID = other.GetComponent<BehaviourID>().nameIdObj;
+        otherNameID = other.GetComponent<IDBehaviour>().nameIDObj;
         ChangeValue();
     }
     

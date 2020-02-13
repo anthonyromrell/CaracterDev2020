@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476e3e86e786f784ab38e303e9bcf364, type: 3}
+  m_Name: ChangeHealth
+  m_EditorClassIdentifier: 
+  dataObj: {fileID: 11400000, guid: 99b5dd810d60288448998f938fd14d4d, type: 2}
