@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d43244485fc5dcd43b72e60966bebb7f, type: 3}
   m_Name: ChangeHealth
   m_EditorClassIdentifier: 
-  dataObj: {fileID: 11400000, guid: 99b5dd810d60288448998f938fd14d4d, type: 2}
-  MathEvent:
+  workEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000}
@@ -27,5 +26,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 65af3040b95fa554583d4193a5df0c60, type: 2}
+        m_MethodName: RaiseAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 95ccbe979344d0842bcefc22b289a328, type: 2}
+        m_MethodName: CreateInstance
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  dataObj: {fileID: 11400000, guid: 99b5dd810d60288448998f938fd14d4d, type: 2}
