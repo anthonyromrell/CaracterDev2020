@@ -688,8 +688,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameIdObj: {fileID: 0}
-  workSystemManagerObj: {fileID: 11400000, guid: 9e86e1c470c4d7d4a924fc961bd9c9a1,
-    type: 2}
+  nameIdList:
+  - nameIdObj: {fileID: 11400000, guid: 2c0aabd7bd2c08c41b94a9272535075f, type: 2}
+    workEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 2c0aabd7bd2c08c41b94a9272535075f, type: 2}
+          m_MethodName: ChangeSpriteRenderColor
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1755842812}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - nameIdObj: {fileID: 11400000, guid: 634c9779695325743885ab32ae8108b6, type: 2}
+    workEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 634c9779695325743885ab32ae8108b6, type: 2}
+          m_MethodName: ChangeSpriteRenderColor
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1755842812}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
 --- !u!54 &1755842815
 Rigidbody:
   m_ObjectHideFlags: 0
