@@ -9,7 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97ce78083360c468aa3dbf7c1da3dd80, type: 3}
-  m_Name: Green
+  m_Script: {fileID: 11500000, guid: 172db585419c81b448f03a308a4e9954, type: 3}
+  m_Name: Dialogue 2
   m_EditorClassIdentifier: 
-  value: {r: 1, g: 0.19551288, b: 0, a: 1}
+  stringListObj:
+  - '   '
+  - You came back
+  - WelcomeThanks.
+  - Now it your new time.
+  currentLineNumber: 2
