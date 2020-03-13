@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.496413, b: 0.5748175, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -145,8 +145,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.85, y: 1.66, z: 2.44}
-  m_Center: {x: 0, y: 1.44, z: 0}
+  m_Size: {x: 0.85, y: 0.24, z: 2.44}
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!65 &312612917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -231,7 +231,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d4374d2867c98e94093d9f6db24f459d, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -364,14 +364,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1563807729}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d742c6ecfff7a948b0ce4a23a7db9ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 0252785bd16f35a41affb8a174a19fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionDirection: {x: 0, y: 0, z: 0}
-  speed: 10
-  gravity: 3
-  jumpForce: 60
-  jumpCountMax: 2
+  characterPatterns:
+  - {fileID: 11400000, guid: 31067825f2fb84074b33610ff55840bc, type: 2}
 --- !u!143 &1563807731
 CharacterController:
   m_ObjectHideFlags: 0
