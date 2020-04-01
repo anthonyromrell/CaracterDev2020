@@ -9,6 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: platform
-  m_EditorClassIdentifier: Assembly-CSharp::NameId
+  m_Script: {fileID: 11500000, guid: b7cfda749f8274bb3a8196ee3ce59a50, type: 3}
+  m_Name: Ai
+  m_EditorClassIdentifier: 
+  scene: {fileID: 102900000, guid: 93175de7bd3c64ec99003a470ce3b8d5, type: 3}
+  sceneName: AI
+  loadType: 0
