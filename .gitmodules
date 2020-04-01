@@ -7,3 +7,9 @@
 [submodule "CharacterProject/Assets/UnityScriptingFoundation"]
 	path = CharacterProject/Assets/UnityScriptingFoundation
 	url = https://github.com/anthonyromrell/UnityScriptingFoundation.git
+[submodule "CharacterDev2/Assets/Tools"]
+	path = CharacterDev2/Assets/Tools
+	url = https://github.com/anthonyromrell/ArtisanDream.Tools
+[submodule "CharacterDev2/Assets/Foundation"]
+	path = CharacterDev2/Assets/Foundation
+	url = https://github.com/anthonyromrell/UnityScriptingFoundation.git
