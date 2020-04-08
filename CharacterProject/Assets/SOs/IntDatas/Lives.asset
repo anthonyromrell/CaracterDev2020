@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ec9e027957b415392cc6cf356cd78a, type: 3}
   m_Name: Lives
   m_EditorClassIdentifier: 
-  value: 3
+  value: 4
   decrementEvent:
     m_PersistentCalls:
       m_Calls:
