@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 182953462}
   - component: {fileID: 182953470}
   - component: {fileID: 182953471}
+  - component: {fileID: 182953472}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -346,7 +347,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182953460}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98e640c4ecbf94a6f8075de14aa5acea, type: 3}
   m_Name: 
@@ -384,7 +385,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   holdTime: 0.1
-  handlerList: []
 --- !u!114 &182953471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182953460}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98e640c4ecbf94a6f8075de14aa5acea, type: 3}
   m_Name: 
@@ -430,7 +430,74 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   holdTime: 0.1
-  handlerList: []
+--- !u!114 &182953472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182953460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302c3fbf068fb4945953904ae6778253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 7acc670fb4768471e8d0bbd4d73ac15b, type: 2}
+        m_MethodName: UpdateValue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 182953465}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  handlerList:
+  - action: {fileID: 11400000, guid: 31918c926ea1449fc9ece6932b972f74, type: 2}
+    actionEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 182953467}
+          m_MethodName: Stop
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - action: {fileID: 11400000, guid: a84c2ccfa754645ac82bd13fe00dd361, type: 2}
+    actionEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 182953467}
+          m_MethodName: Restart
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 7acc670fb4768471e8d0bbd4d73ac15b, type: 2}
+          m_MethodName: UpdateTransform
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 182953465}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &312612915
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,7 +860,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   holdTime: 0.1
-  handlerList: []
 --- !u!1 &766857189
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1604,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   holdTime: 0.1
-  handlerList: []
 --- !u!1 &1224120933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,7 +1822,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   holdTime: 0.1
-  handlerList: []
 --- !u!114 &1440630880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1924,7 +1988,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   holdTime: 0.1
-  handlerList: []
 --- !u!114 &1563807737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2039,7 +2102,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   holdTime: 2
-  handlerList: []
 --- !u!114 &1563807740
 MonoBehaviour:
   m_ObjectHideFlags: 0
